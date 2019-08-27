@@ -41,6 +41,9 @@
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contato</a>
           </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#hash">Gera Password</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -200,6 +203,31 @@
     </div>
   </section>
 
+  <!-- Contact Section -->
+  <section class="page-section" id="hash">
+    <div class="container">
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Gera Password</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+      
+      <div class="row">
+        <div class="col-lg-8 mx-auto" style="text-align: center">
+          <form action="#hash" onsubmit="geraHash($('#string_hash').val())">
+            <input id="string_hash" class="form-control" required placeholder="Digite um texto para converter" maxlength="20" minlength="4" style="text-align: center"></p>
+            <button type="submit" class="btn btn-secondary btn-md">Gerar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Footer -->
   <footer class="footer text-center">
     <div class="container">
@@ -266,6 +294,7 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/freelancer.min.js"></script>
+  <script src="js/hash.js"></script>
 
 </body>
 
