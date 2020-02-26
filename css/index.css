@@ -86,7 +86,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
+#about {
+  margin: auto;
+}
+
 p {
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -10739,7 +10746,9 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .masthead .masthead-avatar {
-  width: 15rem;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  width: 20rem;
 }
 
 @media (min-width: 992px) {
