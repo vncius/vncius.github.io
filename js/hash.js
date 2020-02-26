@@ -2,6 +2,12 @@ $(document).ready(function () {
     $('#formulario').submit(function (e) {
         geraHash($('#string_hash').val(), $('#qtd_char').val());
     });
+
+    $('.close').submit(function (e) {
+        $('#formulario').each(function(){
+            this.reset();
+        });
+    });
 });
 
 
