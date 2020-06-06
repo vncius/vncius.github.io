@@ -1,0 +1,94 @@
+{
+  "experiencias": [
+    {
+      "tipo": "Linguagem",
+      "descricao": "CSharp",
+      "nivel": "",
+      "experiencia": "Profissional"
+    },
+    {
+      "tipo": "Linguagem",
+      "descricao": "JavaScript 6",
+      "nivel": "",
+      "experiencia": "Profissional"
+    },
+    {
+      "tipo": "Ling. Marcação",
+      "descricao": "HTML5",
+      "nivel": "",
+      "experiencia": "Profissional"
+    },
+    {
+      "tipo": "Framework",
+      "descricao": "Bootstrap",
+      "nivel": "",
+      "experiencia": "Profissional"
+    },
+    {
+      "tipo": "Biblioteca",
+      "descricao": "jQuery",
+      "nivel": "",
+      "experiencia": "Profissional"
+    },
+    {
+      "tipo": "Ling. Style",
+      "descricao": "CSS3",
+      "nivel": "",
+      "experiencia": "Profissional"
+    },
+    {
+      "tipo": "Linguagem",
+      "descricao": "Visual Basic .NET",
+      "nivel": "",
+      "experiencia": "Profissional"
+    },
+    {
+      "tipo": "Linguagem",
+      "descricao": "Visual Basic 6",
+      "nivel": "",
+      "experiencia": "Profissional"
+    },
+    {
+      "tipo": "Estrutura .Net",
+      "descricao": "ASP.NET MVC",
+      "nivel": "",
+      "experiencia": "Profissional"
+    },
+    {
+      "tipo": "Banco de Dados",
+      "descricao": "Microsoft SQL Server",
+      "nivel": "",
+      "experiencia": "Profissional"
+    },
+    {
+      "tipo": "Banco de Dados",
+      "descricao": "Oracle SQL & PL/SQL",
+      "nivel": "",
+      "experiencia": "Profissional"
+    },
+    {
+      "tipo": "Banco de Dados",
+      "descricao": "MySQL",
+      "nivel": "",
+      "experiencia": "Estudos"
+    },
+    {
+      "tipo": "Estrutura .Net",
+      "descricao": "ASP.NET Core",
+      "nivel": "",
+      "experiencia": "Estudos"
+    },
+    {
+      "tipo": "Biblioteca",
+      "descricao": "React",
+      "nivel": "",
+      "experiencia": "Estudos"
+    },
+    {
+      "tipo": "Tecnologia",
+      "descricao": "Node.js",
+      "nivel": "",
+      "experiencia": "Estudos"
+    }
+  ]
+}

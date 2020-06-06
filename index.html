@@ -18,7 +18,7 @@
     type="text/css">
 
   <!-- Theme CSS -->
-  <link href="css/index.min.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
 
 </head>
 
@@ -108,11 +108,25 @@
                       <img class="img-fluid rounded mb-5" src="img/portfolio/github_portifolio.jpg" alt="">
                       <p class="mb-5">
                         GitHub é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git.
-                        Projetos desenvolvidos por mim se encontram lá. Para mais dúvidas contate-me. Segue abaixo um
-                        breve resumo.
+                        Projetos desenvolvidos por mim se encontram lá. Para mais dúvidas contate-me. Segue abaixo lista com liguagens e experiências.
                       </p>
 
-                      <div>
+                      <div class="table-experience" style="width: 100%;">
+                        <table class="table table-striped table-bordered">
+                          <thead class="thead-dark">
+                            <tr>
+                              <th scope="col">Tipo</th>
+                              <th scope="col">Descrição</th>
+                              <!-- <th scope="col">Nivel</th> -->
+                              <th scope="col">Experiência</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                          </tbody>
+                        </table>
+                      </div>
+
+                      <!-- <div>
                         <ul class="list-group">
                           <li class="list-group-item">
                             <h4>Linguagens de programação e Frameworks</h4>
@@ -134,16 +148,13 @@
                               <div class="col-2"><strong>*BD's</strong></div>
                               <div class="col-10">SQL SERVER - ORACLE SQL</div>                              
                             </div>
-                          </li>
-
-                          <li class="list-group-item">
-                            <h5>Experiências de estudos</h5>                            
-                            <div class="row">
-                              <div class="col-12">ASP.NET CORE - REACT JS - NODE JS - Java/Mobile - Thymeleaf - JPA - Servlet - Spring boot - MYSQL</div>                              
-                            </div>
+                              <h5>Experiências de estudos</h5>                            
+                              <div class="row">
+                                <div class="col-12">ASP.NET CORE - REACT JS - NODE JS - Java/Mobile - Thymeleaf - JPA - Servlet - Spring boot - MYSQL</div>                              
+                              </div>
                           </li>
                         </ul>
-                      </div>
+                      </div> -->
                       <br>
                       <a class="btn btn-outline-dark btn-social mx-1" href="https://github.com/vncius">
                         <i class="fab fa-fw fa-github"></i>
@@ -345,6 +356,7 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/preenchimentoAutomatico.js"></script>
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
